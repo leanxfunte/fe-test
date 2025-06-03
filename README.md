@@ -10,3 +10,13 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# Workout Renderer Component
+
+This is a React component that renders workout data in a user-friendly format using TailwindCSS for styling.
+
+## Features
+
+- Displays workout name, description, and duration
+- Organizes workout into segments (Warmup, Main Set, Cool Down)
+- Shows individual blocks with duration and intensity
